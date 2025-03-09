@@ -12,7 +12,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load Data
-file_path = "all_data.csv"
+file_path = "https://github.com/steffbp123/Aplikasi-Login/blob/main/Bike%20Sharing%20Dataset/Dashboard/all_data.csv"
 df = pd.read_csv(file_path)
 
 # Pisahkan Data Harian dan Jam
