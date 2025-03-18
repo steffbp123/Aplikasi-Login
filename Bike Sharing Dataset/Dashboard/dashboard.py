@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+matplotlib.use('Agg')
 
 # Load Data
 df_all = pd.read_csv("https://raw.githubusercontent.com/steffbp123/Aplikasi-Login/refs/heads/main/Bike%20Sharing%20Dataset/Dashboard/all_data.csv")
